@@ -12,7 +12,6 @@
   flex-wrap: wrap;
   align-items: center;
   padding: 0px 35px 0px 50px;
-  width: 100%;
 }
 .navigation li {
   padding: 0px 5px;
@@ -136,8 +135,6 @@
   opacity: 0.5;
 }
 .car-logo:hover {
-  width: 75px;
-  height: 75px;
   opacity: 1;
 }
 
@@ -494,8 +491,8 @@
   background: rgb(19, 94, 197);
   background: linear-gradient(
     0deg,
-    rgba(19, 94, 197, 1) 40%,
-    rgba(255, 255, 255, 1) 40%
+    rgba(19, 94, 197, 1) 43%,
+    rgba(255, 255, 255, 1) 43%
   );
   height: 800px;
   text-align: center;
@@ -526,4 +523,12 @@
   margin-top: 2%;
   padding: 20px 50px!important;
 
+}
+
+.width-fix {
+  width: 100% !important;
+}
+
+.margin-fix {
+  margin: 0px 2.5vw;
 }
