@@ -8,15 +8,19 @@ body {
     left: 0px;
 }
 
-@media screen and (min-width: 1300px) {
+@media (min-width: 1300px) {
     .navbar {
+        width: 49%;
+        min-width: 950px;
         background-image: url('Blitz.png');
         background-repeat: no-repeat;
         background-position: 0px 20px;
     }
 
     .page-container {
+
         width: 49%;
+        min-width: 950px;
         margin: 40px auto;
         display: flex;
         justify-content: center;
@@ -26,11 +30,11 @@ body {
     }
 }
 
-@media screen and(max-width: 1300px) {
+@media (max-width: 1500px) {
     .navbar {
-        background-image: url('Blitz.png');
-        background-repeat: no-repeat;
-        background-position: 0px 20px;
+        width: 80%;
+        margin: 40px auto;
+
     }
 
     .page-container {
@@ -79,7 +83,6 @@ body {
     font-family: "Bebas", serif;
     color: rgb(165, 165, 165);
     text-align: center;
-    font-weight: bold;
     transform: scaleY(1.2);
 
 
@@ -90,7 +93,6 @@ body {
     font-family: "Bebas", serif;
     color: rgb(71, 71, 71);
     text-align: center;
-    font-weight: bold;
     transform: scaleY(1.2);
 
 
@@ -99,6 +101,9 @@ body {
 
 .jesus-logo {
     overflow: hidden;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
 }
 
 .iframe-container {
@@ -110,7 +115,7 @@ body {
 }
 
 .iframe-container-promo {
-    background-color: rgba(240, 240, 240, 0.2);;
+    background-color: rgba(240, 240, 240, 0.2);
     width: 260px;
     height: 36px;
     position: relative;
@@ -128,7 +133,6 @@ body {
     color: rgb(154, 154, 154);
     text-transform: uppercase;
     line-height: 1;
-    font-weight: bold;
     transform: scalex(0.8);
 
 }
@@ -141,7 +145,6 @@ body {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 1;
-    font-weight: bold;
     transform: scaleX(0.8);
 
 }
@@ -157,7 +160,6 @@ body {
     color: rgb(71, 71, 71);
     line-height: 1.313;
     text-align: left;
-    font-weight: bold;
     transform: scaleY(1.25);
 
 }
@@ -168,7 +170,6 @@ body {
     color: rgb(71, 71, 71);
     line-height: 1.167;
     text-align: left;
-    font-weight: bold;
 
 }
 
@@ -197,13 +198,13 @@ body {
     color: rgb(70, 70, 70);
     line-height: 1;
     text-align: left;
-    font-weight: bold;
     margin: 0px;
     padding: 0px;
+    min-height: 40px;
 
 }
 
-.iframe-container-three-box p:nth-of-type(2), . {
+.iframe-container-three-box p:nth-of-type(2){
     font-size: 12px;
     font-family: "HelveticaNeue", serif;
     color: rgb(65, 65, 65);
@@ -224,7 +225,6 @@ body {
     color: rgb(71, 71, 71);
     line-height: 1;
     text-align: center;
-    font-weight: bold;
     background-color: white;
     width: 200px;
     margin: auto;
@@ -249,7 +249,6 @@ body {
     font-family: "Bebas", serif;
     color: rgb(65, 65, 65);
     text-align: left;
-    font-weight: bold;
     transform: scaleY(1.25);
 
 }
@@ -268,14 +267,11 @@ body {
     color: rgb(71, 71, 71);
     line-height: 1.5;
     text-align: left;
-    font-weight: bold;
 
 }
 
 .about-container {
     text-align: left;
-    margin-right: auto;
-    margin-left: 5px;
 }
 
 .about-container-three-flex {
@@ -283,8 +279,11 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-}
 
+}
+.about-container-three {
+    width: 100%;
+}
 .about-container-three-box {
     width: 290px;
     padding: 0px 10px 0px 3px;
@@ -310,6 +309,7 @@ body {
     color: rgb(158, 158, 158);
     font-style: italic;
     text-align: left;
+
 }
 
 .about-container-three-box p:nth-of-type(1) {
@@ -318,8 +318,10 @@ body {
     color: rgb(71, 71, 71);
     line-height: 1;
     text-align: left;
-    font-weight: bold;
     transform: scaleY(1.25);
+    font-weight: bold;
+
+
 
 
 }
@@ -331,7 +333,9 @@ body {
     line-height: 1.1;
     text-align: left;
     transform: scaleY(1.25);
-
+    position:relative;
+    top: -10px;
+    left: 0px;
 }
 
 .about-container-three-box p:nth-of-type(3) {
@@ -361,7 +365,6 @@ body {
     position: relative;
     left: 213.521px;
     bottom: 136.502px;
-    font-weight: bold;
 
 }
 
@@ -403,12 +406,11 @@ body {
 .contact-div-holder {
     width: 70%;
     margin-right: 5%;
-    height: 650px;
 }
 
 .about-blitz-holder {
     width: 25%;
-    padding-top: 69px;
+    padding-top: 68px;
     height: 650px;
 }
 
@@ -419,7 +421,6 @@ body {
     line-height: 0.75;
     text-align: left;
     transform: scaleY(1.25);
-    font-weight: bold;
 
 }
 .contact-div-box p:nth-of-type(1) {
@@ -477,7 +478,6 @@ body {
     color: rgb(71, 71, 71);
     line-height: 2.333;
     text-align: left;
-    font-weight: bold;
     padding: 0;
     border: none;
     background: none;
@@ -496,7 +496,7 @@ li {
     padding:0;
     margin:5px 0px;
     text-align: left;
-    list-style-type: none; /* Убираем маркеры */
+    list-style-type: none;
 }
 
 .about-blitz-holder h3 {
@@ -506,7 +506,6 @@ li {
     line-height: 1.2;
     text-align: left;
     transform: scaleY(1.25);
-    font-weight: bold;
 
 
 }

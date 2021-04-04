@@ -1,0 +1,33 @@
+.blog-about {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-around;
+}
+.blog-about-date-tag {
+    width: 20%;
+    margin: 0;
+}
+.blog-about-date-tag p:nth-of-type(2n+1) {
+    font-size: 14px;
+    font-family: "Bebas", serif;
+    color: rgb(70, 70, 70);
+    line-height: 1.667;
+    text-align: left;
+    font-style: normal;
+
+}
+
+.blog-about-date-tag p:nth-of-type(2n) {
+    font-size: 12px;
+    font-family: "Myriad Pro", serif;
+    color: rgb(186, 186, 186);
+    line-height: 1.667;
+    text-align: left;
+}
+.blog-text {
+    width: 80%;
+    margin: 20px;
+
+}

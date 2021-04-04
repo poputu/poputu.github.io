@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Bebas;
+    src: url(BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(LiberationSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(LiberationSans-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(LiberationSans-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: Myriad Pro;
+    src: url(8143.otf);
+}
