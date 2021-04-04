@@ -31,3 +31,12 @@
     margin: 20px;
 
 }
+
+.div-text{
+    font-size: 12px;
+    font-family: "HelveticaNeue", serif;
+    color: rgb(65, 65, 65);
+    line-height: 1.5;
+    text-align: left;
+
+}

@@ -298,7 +298,6 @@ body {
     color: rgb(71, 71, 71);
     line-height: 0.1;
     text-align: left;
-    font-weight: bold;
 
 }
 
@@ -319,7 +318,6 @@ body {
     line-height: 1;
     text-align: left;
     transform: scaleY(1.25);
-    font-weight: bold;
 
 
 
@@ -421,6 +419,7 @@ body {
     line-height: 0.75;
     text-align: left;
     transform: scaleY(1.25);
+    font-weight: normal;
 
 }
 .contact-div-box p:nth-of-type(1) {
@@ -506,6 +505,7 @@ li {
     line-height: 1.2;
     text-align: left;
     transform: scaleY(1.25);
+    font-weight: normal;
 
 
 }

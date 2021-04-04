@@ -70,6 +70,7 @@
     line-height: 1;
     text-align: left;
     margin:15px 10px 5px 10px;
+    font-weight: normal;
 
 }
 
@@ -92,3 +93,4 @@
     text-align: left;
     margin:15px 10px;
 }
+
